@@ -1,0 +1,23 @@
+{
+  "name": "challenges-interviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-pyro/challenges-interviews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-pyro/challenges-interviews/issues"
+  },
+  "homepage": "https://github.com/a-pyro/challenges-interviews#readme",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
