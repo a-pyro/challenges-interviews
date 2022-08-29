@@ -1,3 +1,2 @@
-# ts-challenges
+## Coding challenges from the web
 
-Challenges from https://github.com/type-challenges/type-challenges
