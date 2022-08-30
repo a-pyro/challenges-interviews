@@ -17,6 +17,10 @@ const timeConversion = (s: string): string => {
   const partOfTheDay = s.slice(-2)
   const [hours, minutes, seconds] = s.slice(0, -2).split(':')
   return `${
-    partOfTheDay === 'PM' ? mapPMto24h[hours as keyof typeof mapPMto24h] : hours
+    partOfTheDay === 'PM'
+      ? mapPMto24h[hours as keyof typeof mapPMto24h]
+      : hours === '12'
+      ? '00'
+      : hours
   }:${minutes}:${seconds}`
 }
